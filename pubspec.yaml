@@ -1,0 +1,27 @@
+name: live_stream_pro_player_fc
+description: Live Stream Pro Player FC
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: any
+  chewie: any
+  flick_video_player: any
+  path_provider: any
+  permission_handler: any
+  http: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
